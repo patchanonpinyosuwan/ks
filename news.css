@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Train One', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+}
+nav {
+    height: 60px;
+    width: 100;
+    background-image: linear-gradient(130deg,#d35400,#f39c12);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 2px solid whitesmoke;
+    padding: 5px 12px;
+}
+nav h2 a{color: white;
+    text-decoration: white;
+}
+ul.set {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+ul.set{
+    display: flex;
+}
+ul.set li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 0% 40px;
+    transition: 2s;
+    position: relative;
+}
+ul.set a{
+    color: whitesmoke;
+    text-decoration: whitesmoke;
+}
+ul.set li:hover{
+    background: #3dc2a7;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
